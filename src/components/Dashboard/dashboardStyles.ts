@@ -85,7 +85,7 @@ const WeatherDetail = styled("p")`
     props.size === "large" ? "6.25rem" : "1.25rem"};
   color: #fff;
 
-  @media (max-width: 800px) {
+  @media (max-width: 50rem) {
     font-size: ${(props: WeatherPropsType) =>
       props.size === "large" ? "4.375rem" : "1.25rem"};
   }
