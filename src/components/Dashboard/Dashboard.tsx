@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { useGetWeatherForecastQuery } from "../../../features/weatherSlice";
+import { useGetWeatherForecastQuery } from "../../features/weatherSlice";
 import ReactLoading from "react-loading";
-import { convertToStandardTime } from "../../../util/helperFunctions";
+import { convertToStandardTime } from "../../util/helperFunctions";
 import {
   DashboardContainer,
   DashboardInnerContainer,

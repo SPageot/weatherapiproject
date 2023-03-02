@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Dashboard from "./components/blocks/Dashboard/Dashboard";
+import Dashboard from "./components/Dashboard/Dashboard";
 
 const AppContainer = styled("div")`
   height: 100vh;

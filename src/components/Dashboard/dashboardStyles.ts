@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { WeatherPropsType } from "../../../types/type";
+import { WeatherPropsType } from "../../types/type";
 
 const DashboardContainer = styled("section")`
   height: 900px;
