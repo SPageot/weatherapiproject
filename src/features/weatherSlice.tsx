@@ -1,5 +1,5 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-import { WeatherDataType } from "../components/types/type";
+import { WeatherDataType } from "../types/type";
 
 export const weatherApi = createApi({
   reducerPath: "weatherApi",
