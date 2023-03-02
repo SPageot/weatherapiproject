@@ -2,15 +2,15 @@ import styled from "styled-components";
 import { WeatherPropsType } from "../../types/type";
 
 const DashboardContainer = styled("section")`
-  height: 900px;
-  width: 1400px;
+  height: 56.25rem;
+  width: 87.5rem;
   background-color: rgba(55, 146, 203, 0.7);
-  box-shadow: 0 0 10px #97b8e0;
+  box-shadow: 0 0 0.625rem #97b8e0;
   border-radius: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  @media (max-width: 1400px) {
+  @media (max-width: 87.5rem) {
     width: 100%;
     height: 100%;
     border-radius: 0;
@@ -34,7 +34,7 @@ const WeatherHeaderContainer = styled("div")`
   justify-content: center;
   align-items: center;
 
-  @media (max-width: 500px) {
+  @media (max-width: 31.25rem) {
     text-align: center;
   }
 `;
@@ -42,20 +42,20 @@ const WeatherHeaderContainer = styled("div")`
 const WeatherHeader = styled("h4")`
   margin: 0;
   color: #fff;
-  font-size: 30px;
+  font-size: 1.875rem;
 
-  @media (max-width: 520px) {
-    font-size: 20px;
+  @media (max-width: 32.5rem) {
+    font-size: 1.25rem;
   }
 `;
 
 const WeatherDay = styled("h2")`
   margin: 0;
   color: #fff;
-  font-size: 40px;
+  font-size: 2.5rem;
 
-  @media (max-width: 520px) {
-    font-size: 25px;
+  @media (max-width: 32.5rem) {
+    font-size: 1.5625rem;
   }
 `;
 
@@ -68,11 +68,11 @@ const WeatherDetails = styled("div")`
   display: flex;
   color: #fff;
 
-  @media (max-width: 1400px) {
+  @media (max-width: 87.5rem) {
     justify-content: space-between;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 50rem) {
     justify-content: space-between;
     display: flex;
     flex-direction: column;
@@ -82,12 +82,12 @@ const WeatherDetails = styled("div")`
 
 const WeatherDetail = styled("p")`
   font-size: ${(props: WeatherPropsType) =>
-    props.size === "large" ? "100px" : "20px"};
+    props.size === "large" ? "6.25rem" : "1.25rem"};
   color: #fff;
 
   @media (max-width: 800px) {
     font-size: ${(props: WeatherPropsType) =>
-      props.size === "large" ? "70px" : "20px"};
+      props.size === "large" ? "4.375rem" : "1.25rem"};
   }
 `;
 
@@ -107,9 +107,9 @@ const WeatherSectionContainer = styled("div")`
 `;
 
 const WeatherDescription = styled("p")`
-  height: 100px;
-  width: 600px;
-  padding: 60px;
+  height: 6.25rem;
+  width: 37.5rem;
+  padding: 3.75rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,20 +117,20 @@ const WeatherDescription = styled("p")`
   background-color: #296d98;
   color: white;
 
-  @media (max-width: 1400px) {
+  @media (max-width: 87.5rem) {
     width: 100%;
     border-radius: 0;
   }
 `;
 
 const PageSelection = styled("button")`
-  height: 50px;
-  width: 100px;
+  height: 3.125rem;
+  width: 6.25rem;
   border-radius: 10%;
-  margin: 0 50px;
+  margin: 0 3.125rem;
   background-color: #45b6fe;
   border: none;
-  box-shadow: 0 0 5px #fff;
+  box-shadow: 0 0 0.3125rem #fff;
   cursor: pointer;
   color: #fff;
   font-weight: 900;
@@ -143,8 +143,8 @@ const PageSelection = styled("button")`
     transform: scale(0.9);
   }
 
-  @media (max-width: 800px) {
-    width: 200px;
+  @media (max-width: 50rem) {
+    width: 12.5rem;
     border-radius: 0;
     margin: 0;
   }
